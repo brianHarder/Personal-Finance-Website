@@ -11,6 +11,18 @@ function HomePage() {
           <p>Manage your spending, set goals, and estimate your tax payments all in one place.</p>
         </Col>
       </Row>
+
+      <Row className="mb-5">
+        <Col>
+          <div className="testimonial-image-container">
+            <img src="/image1.jpg" alt="Financial Goals" className="testimonial-image" />
+            <div className="overlay-text">
+              <p>"I love how easy this site is to use and the variety of tools." -anonymous user</p>
+            </div>
+          </div>
+        </Col>
+      </Row>
+
       <Row>
         <Col md={4}>
           <Card className="mb-4">

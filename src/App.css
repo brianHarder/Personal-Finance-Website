@@ -41,6 +41,48 @@ button {
   font-weight: bold;
 }
 
+/* Homepage */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.testimonial-image-container {
+  position: relative;
+  text-align: left;
+}
+
+.testimonial-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.overlay-text p {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: lightpink;
+  font-size: 1.25rem;
+  max-width: 80%;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.overlay-text :hover {
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .overlay-text p {
+    font-size: 1rem;
+    top: 5px;
+    left: 5px;
+    max-width: 90%;
+  }
+}
+
 
 
 /* Expense Tracker */
@@ -117,6 +159,8 @@ button {
 
 .goals-container .btn-primary {
   margin-top: 1rem;
+  background-color: green;
+  border-color: green;
 }
 
 .goals-container .alert {
