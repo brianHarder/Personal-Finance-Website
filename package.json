@@ -1,7 +1,7 @@
 {
   "name": "personal-finance-website",
   "version": "0.1.0",
-  "homepage": "https://brianharder.github.io/Personal-Finance-Website/",
+  "homepage": "https://brianharder.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
